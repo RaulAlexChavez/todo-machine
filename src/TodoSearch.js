@@ -1,10 +1,13 @@
 import React from "react";
+import "./TodoSearch.css";
+import { Search } from "react-bootstrap-icons";
 
 function TodoSearch() {
     return(
-        <React.Fragment>
-            <input placeholder="Clean my room"/>
-        </React.Fragment>
+        <div className="TodoSearch">
+            <input className="todo-search-input" placeholder="Clean my room"/>
+            <Search className="todo-search-icon"/>
+        </div>
     );
 }
 

@@ -1,0 +1,22 @@
+
+.TodoSearch {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+.todo-search-icon {
+    position: relative;
+    left: -65vw;
+    top: 1vw;
+    margin-left: -7vw;
+    font-size: 7vw;
+    color: gray;
+}
+
+.todo-search-input {
+    font-size: 5vw;
+    border-radius: 5vw;
+    padding-left: 14vw;
+    height: 8vw;
+}
